@@ -1,0 +1,90 @@
+{
+  "food": {
+    "id": "aaaaaaaa-1111-4222-8333-444444444444",
+    "fdbId": "fdb_test_coffee",
+    "foodName": "Test Coffee, brewed",
+    "brandName": null,
+    "icon": "coffee",
+    "dataUpdatedAt": "2026-11-03T22:25:06.089Z",
+    "source": "bevel",
+    "scoreCategories": {},
+    "defaultServing": {
+      "fdbServingId": "fdbserv_test_coffee-1",
+      "portion": {
+        "fdbServingId": "fdbserv_test_coffee-1",
+        "standardUnitAmount": 237,
+        "standardUnit": "g",
+        "count": 1,
+        "unitString": "cup",
+        "universalUnit": null,
+        "standardWeight": 237,
+        "portionDisplayName": "1 cup"
+      },
+      "nutrients": [
+        { "nutrientType": "calories", "amount": 2 },
+        { "nutrientType": "protein", "amount": 0.3 },
+        { "nutrientType": "carbohydrate", "amount": 0 },
+        { "nutrientType": "fat", "amount": 0.05 },
+        { "nutrientType": "caffeine", "amount": 95 }
+      ]
+    },
+    "servingOptions": [
+      {
+        "fdbServingId": "fdbserv_test_coffee-1",
+        "portion": {
+          "fdbServingId": "fdbserv_test_coffee-1",
+          "standardUnitAmount": 237,
+          "standardUnit": "g",
+          "count": 1,
+          "unitString": "cup",
+          "universalUnit": null,
+          "standardWeight": 237,
+          "portionDisplayName": "1 cup"
+        },
+        "nutrients": [
+          { "nutrientType": "calories", "amount": 2 },
+          { "nutrientType": "protein", "amount": 0.3 },
+          { "nutrientType": "carbohydrate", "amount": 0 },
+          { "nutrientType": "fat", "amount": 0.05 },
+          { "nutrientType": "caffeine", "amount": 95 }
+        ]
+      },
+      {
+        "fdbServingId": "fdbserv_000_100g",
+        "portion": {
+          "fdbServingId": "fdbserv_000_100g",
+          "standardUnitAmount": 100,
+          "standardUnit": "g",
+          "count": 100,
+          "unitString": "g",
+          "universalUnit": "gram",
+          "standardWeight": 100,
+          "portionDisplayName": "100 g"
+        },
+        "nutrients": [
+          { "nutrientType": "calories", "amount": 0.84 },
+          { "nutrientType": "caffeine", "amount": 40 }
+        ]
+      },
+      {
+        "fdbServingId": "fdbserv_000_1fl-oz",
+        "portion": {
+          "fdbServingId": "fdbserv_000_1fl-oz",
+          "standardUnitAmount": null,
+          "standardUnit": null,
+          "count": 1,
+          "unitString": "fl oz",
+          "universalUnit": null,
+          "standardWeight": null,
+          "portionDisplayName": "1 fl oz"
+        },
+        "nutrients": [
+          { "nutrientType": "calories", "amount": 0.25 },
+          { "nutrientType": "caffeine", "amount": 12 }
+        ]
+      }
+    ]
+  },
+  "clientScore": 100,
+  "searchScore": 90
+}

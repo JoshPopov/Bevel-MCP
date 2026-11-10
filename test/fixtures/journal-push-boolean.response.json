@@ -1,0 +1,7 @@
+{
+  "customJournalTypes": { "succeeded": [], "failed": [] },
+  "booleanJournals": { "succeeded": ["11111111-2222-4333-8444-555555555555"], "failed": [] },
+  "booleanJournalDefaults": { "succeeded": [], "failed": [] },
+  "categoricalJournalDefaults": { "succeeded": [], "failed": [] },
+  "numericJournalDefaults": { "succeeded": [], "failed": [] }
+}

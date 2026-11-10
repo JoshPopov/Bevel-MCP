@@ -1,0 +1,64 @@
+{
+  "name": "bevel-mcp",
+  "version": "1.0.0",
+  "description": "Unofficial MCP server for Bevel Health: Journal, meals, macro goals and workouts in Claude, Grok Build or any MCP client.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "Josh Popov",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshPopov/Bevel-MCP.git"
+  },
+  "homepage": "https://github.com/JoshPopov/Bevel-MCP#readme",
+  "bugs": {
+    "url": "https://github.com/JoshPopov/Bevel-MCP/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "bevel",
+    "health",
+    "claude",
+    "nutrition",
+    "fitness"
+  ],
+  "bin": {
+    "bevel-mcp": "dist/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "node --import tsx --test test/*.test.ts",
+    "auth:inspect": "tsx scripts/auth-inspect.ts",
+    "smoke": "npm run build && node scripts/smoke.mjs",
+    "live-check": "npm run build && node scripts/live-check.mjs",
+    "token:capture": "npm run build && node dist/index.js token capture",
+    "token:set": "npm run build && node dist/index.js token set",
+    "setup": "npm run build && node dist/index.js setup",
+    "doctor": "npm run build && node dist/index.js doctor",
+    "status": "npm run build && node dist/index.js status --check",
+    "prepare": "npm run build",
+    "test:python": "python3 test/python/test_token_capture.py && python3 test/python/test_bevel_capture.py"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  },
+  "files": [
+    "dist",
+    "capture",
+    "README.md",
+    "CHANGELOG.md"
+  ]
+}

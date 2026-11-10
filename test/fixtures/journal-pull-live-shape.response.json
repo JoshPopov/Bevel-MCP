@@ -1,0 +1,32 @@
+{
+  "moreAvailable": false,
+  "offset": 100,
+  "journalData": {
+    "booleanJournals": [
+      {
+        "createdAt": 1794334952292.411,
+        "endTime": 1794330000000,
+        "identifyingDate": 1794330000000,
+        "isNotSet": true,
+        "presetFactorKey": "addedSugar",
+        "startTime": 1794330000000,
+        "uuid": "11111111-2222-4333-8444-555555555555",
+        "updatedAt": "2026-11-10T19:01:20.180Z"
+      },
+      {
+        "boolValue": true,
+        "createdAt": 1784984453178.823,
+        "endTime": 1784995200000,
+        "identifyingDate": 1784995200000,
+        "isNotSet": false,
+        "presetFactorKey": "deviceInBed",
+        "startTime": 1784995200000,
+        "uuid": "66666666-7777-4888-9999-AAAAAAAAAAAA",
+        "updatedAt": "2026-07-25T13:00:53.178Z"
+      }
+    ],
+    "booleanJournalDefaults": [],
+    "categoricalJournalDefaults": [],
+    "numericJournalDefaults": []
+  }
+}

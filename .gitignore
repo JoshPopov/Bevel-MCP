@@ -1,0 +1,20 @@
+node_modules/
+dist/
+*.log
+
+# Secrets — never commit tokens
+.env
+.env.*
+!.env.example
+*.token
+token.txt
+
+# Raw traffic captures can contain personal health data and credentials.
+# Review a capture, then copy redacted files you want to keep into test/fixtures/.
+fixtures/captures/
+*.har
+*.mitm
+*.flow
+
+# Python bytecode from the capture addons
+__pycache__/

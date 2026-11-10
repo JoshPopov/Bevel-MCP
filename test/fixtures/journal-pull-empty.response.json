@@ -1,0 +1,10 @@
+{
+  "moreAvailable": false,
+  "offset": 100,
+  "journalData": {
+    "booleanJournals": [],
+    "booleanJournalDefaults": [],
+    "categoricalJournalDefaults": [],
+    "numericJournalDefaults": []
+  }
+}

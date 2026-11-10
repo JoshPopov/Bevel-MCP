@@ -1,0 +1,19 @@
+{
+  "booleanJournalDefaults": [],
+  "customJournalTypes": [],
+  "booleanJournals": [
+    {
+      "identifyingDate": 1794330000000,
+      "uuid": "11111111-2222-4333-8444-555555555555",
+      "presetFactorKey": "addedSugar",
+      "boolValue": true,
+      "startTime": 1794330000000,
+      "updatedAt": 1794334952292.573,
+      "isNotSet": false,
+      "createdAt": 1794334952292.411,
+      "endTime": 1794330000000
+    }
+  ],
+  "numericJournalDefaults": [],
+  "categoricalJournalDefaults": []
+}
